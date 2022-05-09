@@ -1,0 +1,53 @@
+* {
+
+}
+
+
+
+nav {
+    background-color: rgb(100, 100, 100);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+nav h1 {
+    font-size: 200%;
+    color: bisque;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding: 10px 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#portfolio {
+
+}
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.about p {
+    padding-left: 15px;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.about img {
+    padding-left: 5%;
+}
+

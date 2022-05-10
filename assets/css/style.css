@@ -1,8 +1,6 @@
 * {
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 
 nav {
     background-color: rgb(100, 100, 100);
@@ -25,29 +23,68 @@ nav li {
 }
 
 main {
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-#portfolio {
-
-}
-
-.about {
+#about {
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
 }
 
-.about p {
+#about p {
     padding-left: 15px;
     padding-right: 5%;
     display: flex;
     align-items: center;
 }
 
-.about img {
+#about img {
     padding-left: 5%;
 }
+
+.project {
+    padding: 5%;
+    border: dotted 1px black;
+}
+
+.project-header {
+    font-size: large;
+    display: relative;
+    
+}
+
+.project-image {
+
+}
+
+footer {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer h2 {
+    padding: 25px;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer li {
+    padding: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
 
